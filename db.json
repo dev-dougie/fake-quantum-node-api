@@ -1,16 +1,85 @@
 {
-  "posts":[
+  "user": [
     {
-      "id" : 0,
-      "title": "First post!",
-      "content" : "My first content!"
+      "id": 1,
+      "username": "jhon_doe",
+      "firstName": "Fulano",
+      "lastName": "de Tal",
+      "email": "jhon_doe@fiap.com.br",
+      "avatar": "string"
     }
   ],
-  "comments" : [
+  "groups": [
     {
-      "id": 0,
-      "content": "Wow such content!",
-      "username": "zero_cool"
+      "id": 1,
+      "group": {
+        "id": 1,
+        "name": "Pro Driverz",
+        "icon": "https: //i.pinimg.com/originals/3e/bf/df/3ebfdfc513102f134b1f20d4e51032d3.jpg",
+        "owner": true
+      },
+      "category": "1",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit."
+    },
+    {
+      "id": 2,
+      "group": {
+        "id": 2,
+        "name": "Recanto dos Pássaros",
+        "icon": "https://fotos.vivadecora.com.br/decoracao-chacara-jardim-com-arbustos-floridos-rosas-e-decoracao-revistavd-196260-proportional-height_cover_medium.jpg",
+        "owner": false
+      },
+      "category": 2,
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit."
+    },
+    {
+      "id": 3,
+      "group": {
+        "id": 3,
+        "name": "Magic Of Sea",
+        "icon": "https://files.nsctotal.com.br/s3fs-public/graphql-upload-files/mercado-barcos-de-luxo-sc-schaeffer_2.jpg?9QAQ__B7Ia31gHHSHphknBxmDqFsS95o",
+        "owner": false
+      },
+      "category": 3,
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit."
+    }
+  ],
+  "members": [
+    {
+      "id": 1,
+      "username": "Douglas Santos",
+      "avatar_url": "https://github.com/dev-dougie.png",
+      "status": "online"
+    },
+    {
+      "id": 2,
+      "username": "Eduardo Belisia",
+      "avatar_url": "https://github.com/ebelisia.png",
+      "status": "online"
+    },
+    {
+      "id": 3,
+      "username": "Fulano de Tal",
+      "avatar_url": "https://igd-wp-uploads-pluginaws.s3.amazonaws.com/wp-content/uploads/2016/05/30105213/Qual-e%CC%81-o-Perfil-do-Empreendedor.jpg",
+      "status": "online"
+    },
+    {
+      "id": 4,
+      "username": "Henrique Muniz",
+      "avatar_url": "https://media-exp1.licdn.com/dms/image/C4D03AQEAWLSSKOM9xA/profile-displayphoto-shrink_200_200/0/1593538860024?e=1635984000&v=beta&t=-2peDip2r2scr67A_QHt2POSx5EkZioNqeTziws6fVU",
+      "status": "online"
+    },
+    {
+      "id": 5,
+      "username": "Leo Batini",
+      "avatar_url": "https://github.com/batinera.png",
+      "status": "online"
+    },
+    {
+      "id": 6,
+      "username": "Susana Nakasato",
+      "avatar_url": "https://github.com/susanakasato.png",
+      "status": "online"
     }
   ]
 }
